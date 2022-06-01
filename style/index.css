@@ -2,6 +2,10 @@
   float
 */
 
+/* * {
+  border: 1px solid red;
+  background: green;
+} */
 body,html {
   /* background: url('../assets/images/cool-background.png') no-repeat no-repeat 42% 5% fixed; */
   margin: 0;
@@ -9,12 +13,26 @@ body,html {
   font-family: Georgia Pro, Georgia, serif;
   line-height: 1.2;
   min-height: 100vh;
+  /* background: #fff; */
 }
 
 /**
   cancel a tag undeline style
 */
 
+/**
+  vertical and horizatal a box
+*/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
 /**
   define scroll bar
 */
@@ -108,3 +126,14 @@ aside section ul li a {
   text-decoration: undeline;
   text-decoration-color: black;
 } */
+
+.main-center {
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+
+.footer-center {
+  position: absolute;
+  bottom: 2vh;
+  left: 50vw;
+}
